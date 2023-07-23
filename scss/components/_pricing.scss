@@ -1,0 +1,49 @@
+.section {
+}
+.title {
+}
+.desc {
+}
+.blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 26px;
+}
+.main__pricing__blocks {
+  display: flex;
+  padding: 32px;
+  border-radius: 8px;
+  background: var(--dark-2, #2d2b29);
+}
+.blocks__1 {
+}
+.title__blocks {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.price__blocks {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+}
+.desc_blocks {
+  color: var(--body, #9b968b);
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 299px;
+  max-height: 88px;
+  display: flex;
+}
+.btn__primary {
+}
+.blocks__2 {
+}
+.blocks__3 {
+}

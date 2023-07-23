@@ -7,19 +7,50 @@
 .desc {
 }
 .customers__item {
-  display: flex;
+  border-radius: 8px;
+  background: #2d2b29;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 28px;
 }
 .customers__icon {
+  padding-right: 20px;
+  padding-top: 28px;
+  flex: 0 0 76px;
 }
 .customers__info {
+  display: flex;
+  flex-direction: column-reverse;
 }
 .customers__title {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 4px;
 }
 .customers__tit {
 }
 .customers__desc {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 493px;
+  max-height: 87px;
 }
 
 span {
   color: var(--c-primary);
+}
+.prof {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+}
+.customers__main {
+  display: flex;
+  justify-content: flex-start;
 }
