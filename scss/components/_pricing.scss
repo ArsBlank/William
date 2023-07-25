@@ -30,6 +30,8 @@
   font-size: 44px;
   font-style: normal;
   font-weight: 500;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .desc_blocks {
   color: var(--body, #9b968b);
@@ -40,10 +42,27 @@
   max-width: 299px;
   max-height: 88px;
   display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 .btn__primary {
 }
 .blocks__2 {
 }
 .blocks__3 {
+}
+.silver {
+  padding-top: 39px;
+}
+.silver li {
+  padding-bottom: 21px;
+  color: #a19a8b;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.silver ul li img {
+  padding-right: 14px;
 }

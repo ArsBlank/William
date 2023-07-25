@@ -1,0 +1,45 @@
+.touch {
+  margin-top: 90px;
+  padding-top: 90px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+span {
+}
+.title__touch {
+  color: var(--c-text-white);
+  font-size: 44px;
+  font-weight: 700;
+}
+.desc__touch {
+  color: var(--body, #9b968b);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 460px;
+  max-height: 78px;
+  padding-top: 17px;
+}
+.form__touch {
+  padding-bottom: 24px;
+  gap: 24px;
+}
+.forms {
+}
+.forms_input {
+  padding: 14px;
+  color: var(--c-text-white);
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: 0;
+  width: 100%;
+}
+._textarea {
+}
+.btn__primary {
+}

@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  background: var(--dark-2, #2d2b29);
+}
+.title__footer {
+  padding-right: 431px;
+  display: flex;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.desc_footer {
+  display: flex;
+}
+.footer__ul {
+  gap: 34px;
+  display: flex;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}

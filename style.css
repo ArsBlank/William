@@ -442,7 +442,9 @@ span {
   font-family: Rubik;
   font-size: 44px;
   font-style: normal;
-  font-weight: 500; }
+  font-weight: 500;
+  padding-top: 14px;
+  padding-bottom: 14px; }
 
 .desc_blocks {
   color: var(--body, #9b968b);
@@ -452,6 +454,85 @@ span {
   font-weight: 400;
   max-width: 299px;
   max-height: 88px;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+
+.silver {
+  padding-top: 39px; }
+
+.silver li {
+  padding-bottom: 21px;
+  color: #a19a8b;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center; }
+
+.silver ul li img {
+  padding-right: 14px; }
+
+.touch {
+  margin-top: 90px;
+  padding-top: 90px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  flex-direction: column; }
+
+.title__touch {
+  color: var(--c-text-white);
+  font-size: 44px;
+  font-weight: 700; }
+
+.desc__touch {
+  color: var(--body, #9b968b);
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 460px;
+  max-height: 78px;
+  padding-top: 17px; }
+
+.form__touch {
+  padding-bottom: 24px;
+  gap: 24px; }
+
+.forms_input {
+  padding: 14px;
+  color: var(--c-text-white);
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: 0;
+  width: 100%; }
+
+.footer {
+  display: flex;
+  background: var(--dark-2, #2d2b29); }
+
+.title__footer {
+  padding-right: 431px;
+  display: flex;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400; }
+
+.desc_footer {
   display: flex; }
+
+.footer__ul {
+  gap: 34px;
+  display: flex;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400; }
 
 /*# sourceMappingURL=style.css.map */
